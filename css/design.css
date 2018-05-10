@@ -1,0 +1,32 @@
+
+body {
+	background-color: #361c63;
+	font-family: Century Gothic, sans-serif;
+	color: white;
+}
+
+nav {
+	text-align: center;
+	font-size: 3vh;
+}
+
+nav li a {
+    text-decoration: none;
+	color: inherit;
+}
+
+.sns {
+    background-color: #000000;
+    font-size: 2vh;
+}
+
+
+.sns a {
+	text-decoration: none;
+	color: #361c63;
+}
+
+footer {
+    font-size: 2vh;
+    opacity: 0.5;
+}
