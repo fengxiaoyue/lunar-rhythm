@@ -1,8 +1,9 @@
 
 body {
-	background-color: #361c63;
-	font-family: Century Gothic, sans-serif;
-	color: white;
+	background: linear-gradient(to bottom, #361c63, #140a25);
+	font-family: Oswald, sans-serif;
+	color: #ffffff;
+	height: 100vh;
 }
 
 nav {
@@ -12,7 +13,11 @@ nav {
 
 nav li a {
     text-decoration: none;
-	color: inherit;
+	color: #f1f0f4;
+}
+
+nav li a:hover {
+	color: #9d3b75;
 }
 
 .sns {
@@ -23,7 +28,7 @@ nav li a {
 
 .sns a {
 	text-decoration: none;
-	color: #361c63;
+	color: #9d3b75;
 }
 
 footer {
