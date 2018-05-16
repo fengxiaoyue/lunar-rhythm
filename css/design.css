@@ -1,14 +1,64 @@
+/** fonts **/
+@font-face {
+    font-family: Oswald;
+    src: url(../fonts/Oswald/Oswald-ExtraLight.ttf);
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: Oswald;
+	src: url(../fonts/Oswald/Oswald-Regular.ttf);
+	font-weight: 400;
+}
+
+@font-face {
+    font-family: Oswald;
+    src: url(../fonts/Oswald/Oswald-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+	font-family: Gobold Extra1;
+	src: url(../fonts/Gobold/Gobold%20Extra1.otf);
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: Gobold;
+	src: url(../fonts/Gobold/Gobold%20Light.otf);
+	font-weight: 200;
+}
+
+@font-face {
+	font-family: Gobold;
+	src: url(../fonts/Gobold/Gobold%20Regular.otf);
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: Gobold;
+	src: url(../fonts/Gobold/Gobold%20Bold.otf);
+	font-weight: 700;
+}
+
+/** **/
+
+.sns img {
+	image-rendering: auto;
+	-ms-interpolation-mode: bicubic;
+}
 
 body {
 	background: linear-gradient(to bottom, #361c63, #140a25);
-	font-family: Oswald, sans-serif;
+	font-family: Gobold, sans-serif;
 	color: #ffffff;
 	height: 100vh;
 }
 
 nav {
 	text-align: center;
-	font-size: 3vh;
+	font-size: 3.5vh;
+	font-family: Gobold Extra1, sans-serif;
 }
 
 nav li a {
@@ -22,16 +72,26 @@ nav li a:hover {
 
 .sns {
     background-color: #000000;
-    font-size: 2vh;
+	font-size: 2.25vh;
+	font-family: Gobold, sans-serif;
+	font-weight: 200;
 }
 
 
 .sns a {
 	text-decoration: none;
 	color: #9d3b75;
+	font-family: Gobold, sans-serif;
+	font-weight: 700;
+}
+
+.sns a:hover {
+	color: #361c63;
 }
 
 footer {
     font-size: 2vh;
-    opacity: 0.5;
+	opacity: 0.5;
+	font-family: Oswald, sans-serif;
+	font-weight: 300;
 }
