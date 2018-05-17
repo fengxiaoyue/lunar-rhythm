@@ -49,7 +49,7 @@
 }
 
 body {
-	background: linear-gradient(to bottom, #442AB2, #361C63);
+	background: linear-gradient(to top, #140a25, #361C63);
 	font-family: Gobold, sans-serif;
 	color: #ffffff;
 	height: 100vh;
@@ -57,9 +57,38 @@ body {
 
 /** bg-assets **/
 #meteor {
-	top: 1;
-	left: 1;
+	top: 3vh;
+	left: 16vw;
+	width: 35vh;
+}
+
+#blue-planet {
+	top: 47vh;
+	left: 62vw;
+	width: 16vh;
+}
+
+#red-planet {
+	top: 2vh;
+	left: 62vw;
 	width: 30vh;
+}
+
+#keyboard {
+	top: 32vh;
+	left: 80vw;
+	width: 14vh;
+}
+
+#guitar {
+	top: 45vh;
+	left: 25vw;
+	width: 14vh;
+}
+
+#orange-planet {
+	top: 55vh;
+	left: 7vw;
 }
 
 nav {
