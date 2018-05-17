@@ -49,10 +49,17 @@
 }
 
 body {
-	background: linear-gradient(to bottom, #361c63, #140a25);
+	background: linear-gradient(to bottom, #442AB2, #361C63);
 	font-family: Gobold, sans-serif;
 	color: #ffffff;
 	height: 100vh;
+}
+
+/** bg-assets **/
+#meteor {
+	top: 1;
+	left: 1;
+	width: 30vh;
 }
 
 nav {
