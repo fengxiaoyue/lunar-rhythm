@@ -58,8 +58,15 @@ body {
 /** bg-assets **/
 #meteor {
 	top: 3vh;
-	left: 16vw;
-	width: 35vh;
+	left: 20vw;
+	width: 30vh;
+}
+
+#meteor2 {
+	top: 53vh;
+	left: 70vw;
+	width: 30vh;
+	transform: rotate(180deg);
 }
 
 #blue-planet {
@@ -75,9 +82,10 @@ body {
 }
 
 #keyboard {
-	top: 32vh;
-	left: 80vw;
+	top: 29vh;
+	left: 78vw;
 	width: 14vh;
+	transform: rotate(90deg);
 }
 
 #guitar {
@@ -86,10 +94,23 @@ body {
 	width: 14vh;
 }
 
+#mic {
+	top: 10vh;
+	left: 10vw;
+	width: 8vh;
+}
+
 #orange-planet {
 	top: 55vh;
 	left: 7vw;
 }
+
+#orange-planet2 {
+	top: 0;
+	right: 3vw;
+	width: 13vw;
+}
+
 
 nav {
 	text-align: center;
@@ -141,4 +162,12 @@ footer a {
 
 footer a:hover {
 	text-decoration: underline;
+}
+
+/* Members */
+#mem-gallery h1 {
+	font-family: Gobold Extra1, sans-serif;
+	text-transform: uppercase;
+	font-size: 3.5vh;
+	margin-bottom: 2vh;
 }
