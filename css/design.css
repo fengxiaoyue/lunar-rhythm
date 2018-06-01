@@ -52,7 +52,7 @@ body {
 	background: linear-gradient(to top, #140a25, #361C63);
 	font-family: Gobold, sans-serif;
 	color: #ffffff;
-	height: 100vh;
+	min-height: 100vh;
 }
 
 nav {
@@ -115,6 +115,22 @@ footer a:hover {
 	margin-bottom: 2vh;
 }
 
+/* bg */
+#bg-assets {
+	position: fixed;
+	top: 0;
+	right: 0;
+	padding: 0;
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+	z-index: -1;
+}
+
+.bg-assets {
+	position: fixed;
+}
+
 #meteor {
 	top: 3vh;
 	left: 20vw;
@@ -168,19 +184,4 @@ footer a:hover {
 	top: 0;
 	right: 3vw;
 	width: 13vw;
-}
-
-#bg-assets {
-	position: fixed;
-	top: 0;
-	right: 0;
-	padding: 0;
-	margin: 0;
-	width: 100vw;
-	height: 100vh;
-	z-index: -2;
-}
-
-.bg-assets {
-	position: fixed;
 }
