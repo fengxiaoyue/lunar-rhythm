@@ -74,7 +74,7 @@ table {
 
 #logo2 img {
 	display: inline-block;
-	max-height: 15vw;
+	max-height: 25vh;
 }
 
 .sns {
@@ -113,7 +113,7 @@ footer {
 /* members */
 #mem-gallery {
 	text-align: center;
-	margin-top: 30px;
+	margin-top: 20px;
 }
 
 .mem-portrait {
