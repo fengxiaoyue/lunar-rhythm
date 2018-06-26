@@ -110,13 +110,12 @@ footer {
 	padding: 10px;
 }
 
-#mem-gallery {
-	text-align: center;
-	padding-top: 20px;
-}
-
 .mem-portrait {
 	padding: 4px;
+}
+
+.content {
+	text-align: center;
 }
 
 .content p, .content ul {
@@ -127,9 +126,12 @@ footer {
 	font-size: 16pt;
 	line-height: 16pt;
 	padding-bottom: 32px;
-	text-align: center;
 }
 
-.content {
-	text-align: center;
+.content h1 {
+	font-family: Gobold Extra1, sans-serif;
+	text-transform: uppercase;
+	font-size: 22pt;
+	padding-top: 10px;
+	padding-bottom: 20px;
 }
