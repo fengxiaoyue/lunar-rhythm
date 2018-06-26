@@ -55,20 +55,20 @@ table {
 /*-- --*/
 
 #logo {
-    margin-left: auto;
-	margin-right: auto;
+    padding-left: auto;
+	padding-right: auto;
 	text-align: center;
 }
 
 #logo img {
 	display: inline-block;
 	max-height: 70vh;
-	margin-top: 5vh;
+	padding-top: 5vh;
 }
 
 #logo2 {
-	margin-left: auto;
-	margin-right: auto;
+	padding-left: auto;
+	padding-right: auto;
 	text-align: center;
 }
 
@@ -113,9 +113,21 @@ footer {
 /* members */
 #mem-gallery {
 	text-align: center;
-	margin-top: 20px;
+	padding-top: 20px;
 }
 
 .mem-portrait {
-	padding: 0.5vh;
+	padding: 4px;
+}
+
+/* about */
+#about-content p {
+	padding-right: 150px;
+	padding-left: 150px;
+	font-family: Oswald;
+	font-weight: 200;
+	font-size: 16pt;
+	line-height: 16pt;
+	padding-bottom: 32px;
+	text-align: center;
 }
