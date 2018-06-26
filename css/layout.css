@@ -110,7 +110,6 @@ footer {
 	padding: 10px;
 }
 
-/* members */
 #mem-gallery {
 	text-align: center;
 	padding-top: 20px;
@@ -120,8 +119,7 @@ footer {
 	padding: 4px;
 }
 
-/* about */
-#about-content p {
+.content p, .content ul {
 	padding-right: 150px;
 	padding-left: 150px;
 	font-family: Oswald;
@@ -129,5 +127,9 @@ footer {
 	font-size: 16pt;
 	line-height: 16pt;
 	padding-bottom: 32px;
+	text-align: center;
+}
+
+.content {
 	text-align: center;
 }

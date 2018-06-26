@@ -107,23 +107,13 @@ footer a:hover {
 	text-decoration: underline;
 }
 
-/* Members */
-#mem-content h1 {
+/* About, Audition, Members */
+.content h1 {
 	font-family: Gobold Extra1, sans-serif;
 	text-transform: uppercase;
 	font-size: 22pt;
 	padding-top: 10px;
 	padding-bottom: 20px;
-}
-
-/* About */
-#about-content h1 {
-	font-family: Gobold Extra1, sans-serif;
-	text-transform: uppercase;
-	font-size: 22pt;
-	padding-top: 10px;
-	padding-bottom: 20px;
-	text-align: center;
 }
 
 /* bg */
